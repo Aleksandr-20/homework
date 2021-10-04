@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Подбор квартиры</title>
+</head>
+<body>
+	<header>
+		<h1>Поиск квартиры по параметрам</h1>
+	</header>
+
+	<form action="#" method="post">
+		<h3>Установите желаемые параметры</h3>
+		<!-- div>
+			<label for="place">Район, станция метро или улица</label>
+			<input id="place" type="text" name="place" placeholder="укажите место">
+		</div> -->
+		<div>
+			<label for="category">Выбор категории</label>
+			<select id="category" name="category">
+				<option value="district">Район</option>
+				<option value="subway">Станция метро</option>
+				<option value="street">Улица</option>
+			</select>
+		<!-- </div>
+		<div> -->
+			<label for="name">Название</label>
+			<input type="text" name="name" id="name" placeholder="введите название">
+		</div>
+		<div>
+			<p>Количество комнат</p>
+			<label>
+				<input type="checkbox" name="rooms[]" value="studio">
+				Студия				
+			</label>
+			<label>
+				<input type="checkbox" name="rooms[]" value="1-room">
+				1 комната
+			</label>
+			<label>
+				<input type="checkbox" name="rooms[]" value="2-room">
+				2 комнаты
+			</label>
+			<label>
+				<input type="checkbox" name="rooms[]" value="3-room">
+				3 комнаты
+			</label>
+			<label>
+				<input type="checkbox" name="rooms[]" value="4-plus-room">
+				4 комнаты и более
+			</label>
+		</div>
+		<div>
+			<label for="year">Год сдачи дома</label>
+			<input id="year" type="number" min="1960" max="2021" name="year" placeholder="выберите год сдачи дома">
+		</div>
+		<div>
+			<label for="price">Арендная плата, руб.</label>
+			<input id="price" type="number" min="0" name="price" placeholder="до">
+		</div>
+		<div>
+			<label for="area">Общая площадь, м<sup>2</sup></label>
+			<input id="area" type="number" min="0" name="area" placeholder="до">
+		</div>
+		<div>
+			<label>
+				<input type="radio" name="decor" value="yes">
+				С отделкой
+			</label>
+			<label>
+				<input type="radio" name="decor" value="no">
+				Без отделки
+			</label>
+		</div>
+		<div>
+			<label>
+				<input type="radio" name="terrasa" value="yes">
+				С террасой
+			</label>
+			<label>
+				<input type="radio" name="terrasa" value="no">
+				Без террасы
+			</label>
+		</div>
+		<div>
+			<p>Класс комфорта</p>
+			<label>
+				<input type="checkbox" name="class[]" value="business">
+				Бизнес-класс				
+			</label>
+			<label>
+				<input type="checkbox" name="class[]" value="premium">
+				Премиум
+			</label>
+			<label>
+				<input type="checkbox" name="class[]" value="deluxe">
+				Deluxe
+			</label>
+		</div>
+		<div>
+			<label>Этаж
+				<input type="number" min="1" max="99" name="min-floor" placeholder="от">
+				<input type="number" min="1" max="99" name="max-floor" placeholder="до">
+				<input type="checkbox" name="floor[]" value="no-one">Не первый
+				<input type="checkbox" name="floor[]" value="no-last">Не последний
+			</label>
+		</div>
+		<input type="submit" value="Найти"></p>
+	</form>
+</body>
+</html>

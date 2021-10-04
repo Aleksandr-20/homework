@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Регистрация</title>
+</head>
+<body>
+	<header>
+		<h1>Регистрация</h1>
+	</header>
+
+	<form action="#" method="post">
+		<div>
+			<p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+		</div>
+		<div>
+			<label for="name">Имя</label>
+			<input id="name" type="text" name="name" placeholder="введите ваше имя">
+		</div>
+		<div>
+			<label for="email">E-mail</label>
+			<input id="email" type="email" name="email" placeholder="введите ваш e-mail" required>
+		</div>
+		<div>
+			<label for="password">Пароль</label>
+			<input id="password" type="password" name="password" placeholder="введите пароль" required>
+		</div>
+		<div>
+			<label for="password-repeat">Повторите пароль</label>
+    		<input id="password-repeat" type="password" placeholder="введите пароль еще раз" name="password-repeat" required>
+		</div>
+		<div>
+			<label for="tel">Телефон</label>
+			<input id="tel" type="tel" name="telephone" placeholder="введите ваш номер телефона">
+		</div>
+		<div>
+			<label for="age">Возраст</label>
+			<input id="age" type="number" name="age" placeholder="введите ваш возраст" required>
+		</div>
+		
+		<button type="submit" name="registration">Зарегистрироваться</button>
+
+		<div>
+    		<p>Есть аккаунт? <a href="#">Войти</a>.</p>
+  		</div>
+	</form>
+</body>
+</html>
