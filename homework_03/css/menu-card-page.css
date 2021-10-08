@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	background: url(../img/bg.jpg);
+}
+
+ul#menu li{
+	display:inline-block;
+	list-style-type: none;
+}
+
+#menu, #menu li {
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	background-color: orange;
+}
+
+#menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+#menu a {
+	display: block;
+	color: red;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 5px solid transparent;
+}
+
+#menu a:hover {
+	border-bottom: 5px solid red;
+}
+
+#menu ul {
+	display: none;
+}
+
+.item {
+	/*margin-bottom: 10px;*/
+	text-align: center;
+	padding: 20px;
+	max-width: 420px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+	width: 100%;
+	outline: 2px solid lightgrey; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 7px;
+    /*box-shadow: 5px 5px 5px lightgrey;*/
+}
+
+.item p {
+	text-align: left;
+}
+
+.item a {
+	display: block;
+	background-color: orange;
+	width: 100%;
+	color: red;
+	text-decoration: none;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.pagination {
+	margin: 15px;
+	text-align: center;
+}
+
+.pagination a {
+	display: inline-block;
+	color: red;
+	text-decoration: none;
+	text-align: center;
+	border: 3px solid red;
+	border-radius: 5px;
+	padding: 8px 16px;
+	margin: 0;
+}
+
+.pagination .five {
+	background-color: orange;
+}
+
+.pagination .points {
+	padding: 8px 14px;
+}
