@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	
+}
+
+header #menu {
+	justify-content: center;
+	display: flex;
+	width: 80%;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+#menu a {
+	display: block;
+	text-decoration: none;
+	color: #8b2ee3;
+	font-size: 23px;
+	text-align: center;
+	padding: 20px 80px;
+}
+
+#menu a:hover {
+	background-color: #b49edc;
+	color: #9031e3;
+}
